@@ -1,0 +1,144 @@
+.home-header {
+	position: relative;
+	min-height: 480px;
+	background-image: url('/wp-content/themes/davidoff/images/home-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	.home-callout {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		max-width: 580px;
+		text-align: center;
+
+		@include media-breakpoint-down(md) {
+			width: 90%;
+		}
+	}
+
+	.home-heading {
+		margin-bottom: 2rem;
+		font-size: 2rem;
+		color: $white;
+		font-family: $headings-font-family;
+		line-height: 2.5rem;
+
+		@include media-breakpoint-up(md) {
+			font-size: 3rem;
+			line-height: 3.5rem;
+		}
+	}
+
+	.home-ctas {
+		a {
+			margin-bottom: 1rem;
+		}
+	}
+
+	.btn-white {
+		width: 100%;
+	}
+
+	.video-button {
+		position: absolute;
+		bottom: 0;
+		right: 5%;
+		padding: 2rem;
+		width: 168px;
+		height: 200px;
+		background: #fff;
+		border-top-left-radius: 84px;
+		border-top-right-radius: 84px;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: $headings-font-family;
+		font-size: .85rem;
+		cursor: pointer;
+
+		@include media-breakpoint-down(md) {
+			padding: 1.5rem;
+			width: 100px;
+			height: 100px;
+			font-size: .5rem;
+		}
+
+		img {
+			margin-bottom: .5rem;
+		}
+	}
+}
+
+.cta-divider {
+	margin: 2rem 0;
+	padding: 1rem 0;
+	background: $primary;
+	color: $white;
+	text-align: center;
+	font-weight: bold;
+
+	a {
+		color: $white;
+	}
+}
+
+.home-logos {
+	text-align: center;
+	img {
+		margin: 1rem auto;
+		display: block;
+	}
+}
+
+.home {
+	h2 {
+		color: $primary;
+	}
+
+	.site-main {
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+	.service-row {
+		margin: 1rem 0;
+
+		img {
+			border-radius: 8px;
+			box-shadow: 2px 4px 10px -4px rgba(0, 0, 0, 0.3);
+		}
+	}
+}
+
+.video-container {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100vw;
+	height: 100vh;
+	padding: 2rem;
+	background: rgba(0, 0, 0, 0.9);
+	text-align: center;
+
+	.video-box {
+		position: relative;
+		top: 50%;
+		transform: translateY(-25%);
+		margin: 0 auto;
+		max-width: 600px;
+		height: 100%;
+	}
+
+	.video-close {
+		position: absolute;
+		right: 4rem;
+		font-size: 4rem;
+		color: $white;
+		z-index: 999;
+		cursor: pointer;
+	}
+
+}

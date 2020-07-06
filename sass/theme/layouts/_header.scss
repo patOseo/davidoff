@@ -1,0 +1,57 @@
+.navbar .navbar-nav {
+	.nav-item {
+		text-align: center;
+		@include media-breakpoint-up(md) {
+			text-align: left;
+		}
+	}
+	.nav-link {
+		position: relative;
+		color: $black;
+		font-family: $headings-font-family;
+	
+		@include media-breakpoint-up(xl) {
+			padding-left: 2rem;
+			padding-right: 2rem;
+			font-size: 1.25rem;
+		}
+	}
+}
+
+.navbar .navbar-nav > li:last-child {
+	border: 2px solid $black;
+	border-radius: 3px;
+	transition: 0.2s;
+
+	&:hover {
+		background: $black;
+		transition: 0.2s;
+
+		a {
+			color: $white;
+			transition: 0.2s;
+		}	
+	}
+}
+
+.navbar-toggler {
+	i {
+		font-size: 2rem;
+	}
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+  //For animation
+  max-height: 400px;
+  opacity: 1;
+}
+.dropdown>.dropdown-menu {
+  margin: 0;
+  // For animation
+  transition: all 0.3s;
+  max-height: 0;
+  display: block;
+  overflow: hidden;
+  opacity: 0;
+}

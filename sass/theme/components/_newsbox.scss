@@ -1,0 +1,38 @@
+.news-updates {
+	width: 100%;
+	margin: 6rem 0;
+
+	a {
+		&:hover {
+			text-decoration: none;
+		
+			.news-box {
+				box-shadow: 1px 5px 20px -6px rgba(31, 74, 122, 0.6);
+			}
+		}
+	}
+
+	h2 {
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+
+	.news-box {
+		margin-bottom: 2rem;
+		padding: 1rem;
+		box-shadow: 1px 5px 20px -6px rgba(97,96,96,.25);
+		color: $primary;
+		transition: 0.2s;
+		min-height: 280px;
+	}
+}
+
+.blog {
+	.news-updates {
+		margin-top: 0;
+		h1 {
+			margin: 0 auto 2rem auto;
+			text-align: center;
+		}
+	}
+}

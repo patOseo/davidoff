@@ -1,0 +1,36 @@
+footer.site-footer {
+	.footer-social {
+		padding: 1.5rem;
+		background: #333333;
+		text-align: center;
+		font-size: 1rem;
+
+		a {
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		.fa-twitter,.fa-facebook {
+			color: #333333;
+			font-size: 1.5rem;
+		}
+	}
+
+	.site-info {
+		padding: 3rem 0;
+		background: #1f1f1f;
+		color: $white;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: normal;
+		letter-spacing: 2px;
+	}
+
+	a {
+		color: $white;
+		&:hover {
+			color: lighten($primary, 25%);
+		}
+	}
+}
