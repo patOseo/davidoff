@@ -71,7 +71,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	</div>
 
 	<div class="cta-divider">
-		<a href="https://colorview.certainteed.com/" target="_blank"><span>Wonder what your home would look like with Certainteed’s shingles? Click here to find out!</span></a>
+		<a href="https://colorview.certainteed.com/" target="_blank" rel="noopener,noreferrer,nofollow"><span>Wonder what your home would look like with Certainteed’s shingles? Click here to find out!</span></a>
 	</div>
 
 	<div class="container">
@@ -108,7 +108,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="container">
 		<div class="home-logos">
 			<img src="/wp-content/themes/davidoff/images/cca-logos.jpg" alt="Consumer Choice Awards">
-			<a href="https://www.labour.gov.on.ca/english/resources/roofing.php" target="_blank"><img src="/wp-content/themes/davidoff/images/ontario-ministry-labour.jpg" alt="Important Information About Hiring a Roofer"></a>
+			<a href="https://www.labour.gov.on.ca/english/resources/roofing.php" target="_blank" rel="noopener,noreferrer,nofollow"><img src="/wp-content/themes/davidoff/images/ontario-ministry-labour.jpg" alt="Important Information About Hiring a Roofer"></a>
 		</div>
 	</div>
 
