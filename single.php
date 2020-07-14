@@ -16,7 +16,7 @@ $default_bg = get_field('default_header_background_image', 'option');
 .page-header:before {background: linear-gradient(#173354,#173354), url('<?php echo $default_bg; ?>') no-repeat center center;background-color:white;background-size:cover;}
 </style>
 <div class="page-header">
-	<h1>News & Updates</h1>
+	<span class="likeh1">News & Updates</span>
 </div>
 <div class="wrapper" id="single-wrapper">
 
